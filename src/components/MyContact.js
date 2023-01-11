@@ -271,7 +271,6 @@ function MyContact() {
             <div className="my-location ">
               <iframe
                 title="my-location"
-                style={{ border: "0" }}
                 allowFullScreen=""
                 loading="lazy"
                 src="https://maps.google.com/maps?hl=en&amp;q=Kuri%20Road%20Area+(Bilal%20Hassan)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"

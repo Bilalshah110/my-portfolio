@@ -7,6 +7,7 @@ function SocialLink({ socialLink }) {
       href={socialLink.url}
       target="_blank"
       rel="noopener noreferrer"
+      title={socialLink.title}
     >
       {socialLink.icon}
     </a>
