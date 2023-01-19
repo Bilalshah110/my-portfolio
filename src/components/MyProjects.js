@@ -5,6 +5,15 @@ import Project from "./Project";
 function MyProjects() {
   const allProjects = [
     {
+      name: "Weather by Bilal",
+      description:
+        "A single page responsive weather web application, shows 3 days forecast with other weather details",
+      image: "images/weatherByBilal.jpg",
+      tools: "ReactJS, Bootstrap",
+      projectUrl: "https://weatherbybilal.netlify.app/",
+      srcUrl: "https://github.com/Bilalshah110/my-weather-app",
+    },
+    {
       name: "StudentsREG App",
       description:
         "A FULL STACK responsive web application, stores unique users data, performs all CRUD operations",
