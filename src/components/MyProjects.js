@@ -16,7 +16,7 @@ function MyProjects() {
     {
       name: "StudentsREG App",
       description:
-        "A FULL STACK responsive web application, stores unique users data, performs all CRUD operations",
+        "A FULL STACK responsive web application, logs in and stores unique users data, performs all CRUD operations",
       image: "images/studentReg.jpg",
       tools: "ReactJS, NodeJS, ExpressJS, MongoDB, Bootstrap",
       projectUrl: "https://studentsreg.netlify.app/",
