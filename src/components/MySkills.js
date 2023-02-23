@@ -1,25 +1,28 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { SiHtml5, SiCss3, SiReact, SiExpress, SiMongodb,SiJsonwebtokens } from "react-icons/si";
+import {
+  SiHtml5,
+  SiCss3,
+  SiReact,
+  SiExpress,
+  SiMongodb,
+  SiRedux,
+  SiJsonwebtokens,
+} from "react-icons/si";
 import { IoLogoNodejs } from "react-icons/io";
 import Skill from "./Skill";
 
 function MySkills() {
   const allSkills = [
     {
-      name: "HTML",
-      expertise: "100",
-      icon: <SiHtml5 />,
-    },
-    {
-      name: "CSS",
-      expertise: "100",
-      icon: <SiCss3 />,
-    },
-    {
       name: "ReactJS",
       expertise: "80",
       icon: <SiReact />,
+    },
+    {
+      name: "Redux",
+      expertise: "80",
+      icon: <SiRedux />,
     },
     {
       name: "NodeJS",
@@ -36,10 +39,21 @@ function MySkills() {
       expertise: "80",
       icon: <SiMongodb />,
     },
+
     {
       name: "Json web token",
       expertise: "100",
       icon: <SiJsonwebtokens />,
+    },
+    {
+      name: "HTML",
+      expertise: "100",
+      icon: <SiHtml5 />,
+    },
+    {
+      name: "CSS",
+      expertise: "100",
+      icon: <SiCss3 />,
     },
   ];
   return (
